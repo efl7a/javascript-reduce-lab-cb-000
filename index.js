@@ -33,5 +33,4 @@ function countTheWords(result, line){
 
 var wordCountMap = monologueLines.reduce(countTheWords, {});
 
-
 var totalBatteries = batteryBatches.reduce(sumArray, 0);
