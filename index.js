@@ -21,7 +21,7 @@ const monologueLines = [
 function countTheWords(result, line){
   wordCount = line.split(' ').length
   if (result.hasOwnProperty(wordCount)){
-    result[wordCount] += 1
+    result[wordCount]++
   } else {
     result[wordCount] = 1
   }
