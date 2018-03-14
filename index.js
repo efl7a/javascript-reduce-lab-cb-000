@@ -33,6 +33,3 @@ var wordCountMap = monologueLines.reduce(countTheWords, {});
 var totalBatteries = batteryBatches.reduce(function (total, currentNumber) {
   return total + currentNumber;
 }, 0);
-
-wordCountMap;
-totalBatteries;
