@@ -36,4 +36,3 @@ var totalBatteries = batteryBatches.reduce(function (total, currentNumber) {
 
 wordCountMap;
 totalBatteries;
-
